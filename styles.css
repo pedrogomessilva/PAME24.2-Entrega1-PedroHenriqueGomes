@@ -1,0 +1,104 @@
+h1 {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+#header {
+  display: flex;
+  height: 90px;
+  width: 100%;
+  border: 2px solid red;
+
+
+}
+
+body {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif
+  
+}
+
+.logo {
+  display: flex;
+  height: 120px;
+  width: 400px;
+  background: url(https://power-reptile-d0b.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F5b4c7f6a-6b90-428f-bb60-8aefe0ce809e%2F608497e4-7520-4927-aa07-d5411113c876%2Fnetfluxo.png?table=block&id=45f41e46-866a-4551-8388-d31fb5857b06&spaceId=5b4c7f6a-6b90-428f-bb60-8aefe0ce809e&width=1250&userId=&cache=v2);
+  background-repeat: no-repeat;
+  background position: left;
+  background-size: contain;
+
+}
+
+form label {
+  color:darkgrey;
+  background-color: black;
+  font-size: 20px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  background-color: black;
+  font-size: 22px;
+}
+
+form button{
+ display: flex;
+ margin: auto 0;
+ padding: 15px 200px;
+ color: white;
+ background-color: orange;
+ font-size:15px;
+}
+
+form input{
+
+  background: #363636 ;
+  color:  lightgray;
+  padding: 8px;
+
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.8)
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 445px;
+  height: 70%;
+  text-align:center;
+  background-color: rgba(0, 0, 0, 0.8)
+}
+
+.espaco{
+  display: flex;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h2{
+  color: darkgray;
+}
+
+h3{
+  color:lightgray;
+}
+
+h4{
+  color:white;
+}
+
+p{
+  color: white;
+}
